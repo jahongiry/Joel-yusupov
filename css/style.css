@@ -1,0 +1,21 @@
+#navbar{
+  position:fixed;
+  float: left;
+}
+
+
+#main-doc{
+margin-left: 300px;
+}
+
+/*@media screen and (min-width: 480px) {
+  #main-doc {
+    background-color: offwhite;
+  }
+}*/
+
+@media only screen and (max-width: 600px) {
+  #main-doc {
+    background-color: lightblue;
+  }
+}
