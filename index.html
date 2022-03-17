@@ -9,7 +9,7 @@
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <nav id="navbar">
-      <h1>JS Documentation</h1>
+      <header>JS Documentation</header>
       <ul>
         <li><a class="nav-link" href="#introduction">Introduction</a></li>
       </ul>
@@ -34,11 +34,11 @@
         <li><a class="nav-link" href="#variables">Variables</a></li>
       </ul>
       <ul>
-        <li><a class="nav-link" href="#variable-scope">Variable scope</a></li>
+        <li><a class="nav-link" href="#variable_scope">Variable scope</a></li>
       </ul>
       <ul>
         <li>
-          <a class="nav-link" href="#global-variables">Global variables</a>
+          <a class="nav-link" href="#global_variables">Global variables</a>
         </li>
       </ul>
       <ul>
@@ -48,22 +48,22 @@
       </ul>
       <ul>
         <li>
-          <a class="nav-link" href="#data-types">Data types</a>
+          <a class="nav-link" href="#data_types">Data types</a>
         </li>
       </ul>
       <ul>
         <li>
-          <a class="nav-link" href="#if-else">If else statement</a>
+          <a class="nav-link" href="#if...else_statement">If...else statement</a>
         </li>
       </ul>
       <ul>
         <li>
-          <a class="nav-link" href="#while-statement">While statement</a>
+          <a class="nav-link" href="#while_statement">While statement</a>
         </li>
       </ul>
       <ul>
         <li>
-          <a class="nav-link" href="#fnction-decloration">Function</a>
+          <a class="nav-link" href="#function_declarations">Function declarations</a>
         </li>
       </ul>
       <ul>
@@ -153,9 +153,9 @@
         <header id="hello_world">Hello world</header>
         <p>
           To get started with writing <strong>JavaScript</strong>, open the
-          Scratchpad and write your first "Hello world" JavaScript code:
-          function greetMe(yourName) { alert("Hello " + yourName); }
-          greetMe("World"); Select the code in the pad and hit Ctrl+R to watch
+          Scratchpad and write your first <code>"Hello world"</code> JavaScript code:
+          <code>function greetMe(yourName) { alert("Hello " + yourName); }
+          greetMe("World");</code> Select the code in the pad and hit Ctrl+R to watch
           it unfold in your browser!
         </p>
       </section>
@@ -167,7 +167,7 @@
           A JavaScript identifier must start with a letter, underscore (_), or
           dollar sign ($); subsequent characters can also be digits (0-9).
           Because JavaScript is case sensitive, letters include the characters
-          "A" through "Z" (uppercase) and the characters "a" through "z"
+          "A" through "Z" (uppercase) and the characters <code>"a" through "z"</code>
           (lowercase). You can use ISO 8859-1 or Unicode letters such as å and ü
           in identifiers. You can also use the Unicode escape sequences as
           characters in identifiers. Some examples of legal names are
@@ -186,10 +186,10 @@
           to the function (or global scope) that the block resides within. For
           example the following code will log 5, because the scope of x is the
           function (or global context) within which x is declared, not the
-          block, which in this case is an if statement. if (true) { var x = 5; }
-          console.log(x); // 5 This behavior changes, when using the let
-          declaration introduced in ECMAScript 2015. if (true) { let y = 5; }
-          console.log(y); // ReferenceError: y is not defined
+          block, which in this case is an if statement. <code>if (true) { var x = 5; }
+          console.log(x); // 5</code>  This behavior changes, when using the let
+          declaration introduced in ECMAScript 2015. <code>if (true) { let y = 5; }
+          console.log(y);</code> // ReferenceError: y is not defined
         </p>
       </section>
 
@@ -218,7 +218,7 @@
           block scope variables. If the const keyword is omitted, the identifier
           is assumed to represent a variable. You cannot declare a constant with
           the same name as a function or variable in the same scope. For
-          example: // THIS WILL CAUSE AN ERROR function f() {}; const f = 5; //
+          example: // THIS WILL CAUSE AN ERROR <code>function f() {}; const f = 5;</code> //
           THIS WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
           //statements } However, object attributes are not protected, so the
           following statement is executed without problems. const MY_OBJECT =
@@ -235,8 +235,8 @@
           procedures that your application can perform.
         </p>
       </section>
-      <section class="main-section" id="if_._._._else_statement">
-        <header id="if_._._._else_statement">if...else statement</header>
+      <section class="main-section" id="if...else_statement">
+        <header id="if...else_statement">if...else statement</header>
         <p>
           Use the if statement to execute a statement if a logical condition is
           true. Use the optional else clause to execute a statement if the
@@ -284,8 +284,8 @@
           to x. Therefore, x and n take on the following values:
         </p>
       </section>
-      <section class="main-section" id="function_declorations">
-        <header id="function_declorations">Function declarations</header>
+      <section class="main-section" id="function_declarations">
+        <header id="function_declarations">Function declarations</header>
         <p>
           A function definition (also called a function declaration, or function
           statement) consists of the function keyword, followed by: The name of
